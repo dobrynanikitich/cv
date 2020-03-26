@@ -180,7 +180,8 @@ body {
     padding-right: 10px;
 }
 
-.my-skills--mobile {
+.my-skills--mobile,
+.my-skills-list--mobile {
     display: none;
 }
 
@@ -235,6 +236,8 @@ body {
     }
 
     .my-skills-list--mobile {
+        flex-direction: column;
+        width: 100%;
         margin: 0;
         padding: 10px;
         display: flex;
@@ -242,6 +245,25 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         color: white;
+    }
+
+    .my-skills-list--mobile h3 {
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightcyan;
+    }
+
+    .my-skills-list--mobile li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 7px;
+    }
+
+    .my-skills-list--mobile div {
+        display: flex;
+        flex-direction: column;
+        height: 209px;
+        flex-wrap: wrap;
     }
 
     .my-skills-list--mobile li {
