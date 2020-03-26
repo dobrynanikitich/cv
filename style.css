@@ -68,7 +68,6 @@ body {
     margin: 0;
     font-size: 1em;
     color: gray;
-    margin-bottom: 14px;
 }
 
 .cv-author--info span {
@@ -169,10 +168,20 @@ body {
     color: gray;
     font-weight: bold;
     font-size: 12px;
+    color: black;
+    text-decoration: underline;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-bottom: 0;
 }
 
 .cv-author--skills li {
     padding-right: 10px;
+}
+
+.my-skills--mobile {
+    display: none;
 }
 
 @media screen and (max-width: 730px) {
@@ -218,6 +227,25 @@ body {
 
     .cv-author--projects h3 {
         text-align: center;
+    }
+
+    .my-skills--mobile  {
+        display: flex;
+        background: #595957;
+    }
+
+    .my-skills-list--mobile {
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+
+    .my-skills-list--mobile li {
+        margin-right: 10px;
     }
 }
 
