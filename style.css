@@ -203,7 +203,7 @@ body {
 
 @media screen and (max-width: 650px) {
     .cv-wrapper {
-        height: 100%;
+        height: auto;
         flex-direction: column;
     }
 
