@@ -233,6 +233,13 @@ body {
     .my-skills--mobile  {
         display: flex;
         background: #595957;
+        min-height: 50px;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+        font-weight: bold;
     }
 
     .my-skills-list--mobile {
